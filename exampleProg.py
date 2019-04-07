@@ -13,7 +13,7 @@ con_file.close()
 
 ## Initialize client
 client = ElsClient(config['apikey'])
-client.inst_token = config['insttoken']
+    # client.inst_token = config['insttoken']
 
 ## Author example
 # Initialize author with uri
