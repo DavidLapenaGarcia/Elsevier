@@ -14,7 +14,7 @@ con_file.close()
 ## Initialize client
 client = ElsClient(config['apikey'])
     # client.inst_token = config['insttoken']
-
+print(config)
 ## Author example
 # Initialize author with uri
 my_auth = ElsAuthor(
